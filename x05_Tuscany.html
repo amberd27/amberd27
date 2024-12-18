@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+  <head>
+
+    <title>A Taste of Tuscany</title>
+    <meta charset="utf-8" />
+    <link type="text/css" rel="stylesheet" href="x05_Tuscany.css" />
+    
+    <script type="text/javascript">
+
+      function showSpecials(elem) {
+        document.getElementById("Specials").style.display='block'
+      }
+      
+      function hideSpecials(elem) {
+        document.getElementById("Specials").style.display='none'
+      }
+      
+    </script>
+
+  </head>
+  <body>
+    <article>
+      <h2>A Taste of Tuscany</h2>
+      <h3>Italian Restaurant</h3>
+      <p>234 Arezzo Avenue <br/> Sherwood Park</p>
+      <p><a href= https://unsplash.com/photos/a-long-table-with-white-tablecloths-and-chairs-QpO6RB6Za1w><img src="https://images.unsplash.com/photo-1723033213517-06491042b9c3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Restaurant picture" width="300" height="200"/></a></p>
+      <ul>
+        <li>Fine Italian Dining</li>
+        <li>Daily Specials</li>
+        <li>Licensed</li>
+        <li>Banquet Room</li>
+        <li>Open Daily Until 11pm</li>
+        <li>Eat In, Take Out, Delivery</li>
+        <li>Call 780-555-1234</li>
+      </ul>
+    </article>
+  <button onclick="showSpecials()">Click to see specials!</button>
+  <div id="Specials"> 
+
+    <article 
+    onclick = "this.style.display='none'">
+      <h2><i>Today's Special</i></h2>
+      <h3><i>Valigette </i>(Beef Rolls)<br/> $12.95</h3>
+      <p><a href= "https://unsplash.com/photos/a-plate-of-food-and-a-glass-of-water-on-a-table-VibKuOgqkFw"><img src="https://images.unsplash.com/photo-1668724775591-f50dd8ed65a5?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Beef picture" width="300" height="200"/></a></p>
+      <p>Includes any <i>two</i> of:</p>
+      <ol>
+          <li><i>Pasta e Fagioli</i> </li>
+          <li><i>Ravioli Nudi</i></li>
+          <li><i>Fettunta</i></li>
+          <li><i>Crostini con Salsiccia</i> </li>
+          <li><i>Ribollita</i></li>
+      </ol>
+      <h3>Home</h3>
+
+      <button onclick="hideSpecials()">Click to hide specials.</button>
+    </article>
+
+  </div>
+
+  </body>
+</html> 
